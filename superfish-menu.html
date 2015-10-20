@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Superfish Nav</title>
+	<link rel="stylesheet" href="superfish.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="superfish.js"></script>
+	<script type="text/javascript" src="hoverIntent.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('ul.sf-menu').superfish();
+});
+</script>
+
+</head>
+<body>
+	<ul class="sf-menu">
+		<li class="current">
+			<a href="">A thing</a>
+			<ul>
+				<li><a href="">Another Thing</a></li>
+				<li><a href="">Another Thing</a></li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>
